@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k8s-api-view
+  description: An application to view the Kubernetes APIs/Resources/Objects
+  tags:
+    - app-accelerator
+    - python
+    - javascript
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=k8s-api-view'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a

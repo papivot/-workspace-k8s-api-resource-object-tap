@@ -1,0 +1,5 @@
+Flask
+gunicorn
+kubernetes
+requests
+urllib3
